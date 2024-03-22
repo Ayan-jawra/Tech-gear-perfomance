@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechGearPerformance</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('fitness_background.jpg'); /* Replace 'fitness_background.jpg' with your background image */
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        header, footer {
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.8); /* Add transparency to the background color */
+        }
+
+        #products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product {
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 10px;
+            width: 200px;
+            background-color: #fff; /* White background for product cards */
+        }
+
+        .product img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+
+        .add-to-cart {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .add-to-cart:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TechGearPerformance</h1>
+        <p>Fitness upgrade! Crush your goals like never before!</p>
+    </header>
+    
+    <section id="products">
+        <div class="product">
+            <img src="C:\Users\jawra\Downloads\smart fitness tracker.jpg" alt="Smart Fitness Tracker">
+            <h2>Smart Fitness Tracker</h2>
+            <p>$99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="C:\Users\jawra\Downloads\sport_watch.jpg" alt="Sports Watch">
+            <h2>Sports Watch</h2>
+            <p>$129</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="C:\Users\jawra\Downloads\running shoes.jpg" alt="Running Shoes">
+            <h2>Running Shoes</h2>
+            <p>$149</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="C:\Users\jawra\Downloads\compresssion slleeevs.webp" alt="Compression Sleeves">
+            <h2>Compression Sleeves</h2>
+            <p>$29</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="C:\Users\jawra\Downloads\Running-Headphones.webp" alt="Smart Sports Headphones">
+            <h2>Smart Sports Headphones</h2>
+            <p>$79</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="C:\Users\jawra\Downloads\bottle.jpg" alt="Smart Bottle">
+            <h2>Smart Bottle</h2>
+            <p>$39</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>Select payment method:</p>
+        <input type="radio" id="credit_card" name="payment_method" value="credit_card">
+        <label for="credit_card">Credit Card</label>
+        <input type="radio" id="paypal" name="payment_method" value="paypal">
+        <label for="paypal">PayPal</label>
+        <input type="radio" id="apple_pay" name="payment_method" value="apple_pay">
+        <label for="apple_pay">Apple Pay</label>
+        <br><br>
+        <button>Proceed to Payment</button>
+        <p>&copy; 2024 TechGearPerformance. All rights reserved.</p>
+    </footer>
+</body>
+</html>
